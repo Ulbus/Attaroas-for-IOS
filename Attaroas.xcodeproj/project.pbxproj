@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111C56C828B7597800351AAC /* AttaroasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C56C728B7597800351AAC /* AttaroasApp.swift */; };
+		111C56CA28B7597800351AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C56C928B7597800351AAC /* ContentView.swift */; };
+		111C56CC28B7597900351AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111C56CB28B7597900351AAC /* Assets.xcassets */; };
+		111C56CF28B7597900351AAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111C56CE28B7597900351AAC /* Preview Assets.xcassets */; };
+		111C56D928B7597900351AAC /* AttaroasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C56D828B7597900351AAC /* AttaroasTests.swift */; };
+		111C56E328B7597900351AAC /* AttaroasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C56E228B7597900351AAC /* AttaroasUITests.swift */; };
+		111C56E528B7597900351AAC /* AttaroasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C56E428B7597900351AAC /* AttaroasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111C56D528B7597900351AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111C56BC28B7597800351AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111C56C328B7597800351AAC;
+			remoteInfo = Attaroas;
+		};
+		111C56DF28B7597900351AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111C56BC28B7597800351AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111C56C328B7597800351AAC;
+			remoteInfo = Attaroas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111C56C428B7597800351AAC /* Attaroas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attaroas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111C56C728B7597800351AAC /* AttaroasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaroasApp.swift; sourceTree = "<group>"; };
+		111C56C928B7597800351AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		111C56CB28B7597900351AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111C56CE28B7597900351AAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		111C56D428B7597900351AAC /* AttaroasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttaroasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111C56D828B7597900351AAC /* AttaroasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaroasTests.swift; sourceTree = "<group>"; };
+		111C56DE28B7597900351AAC /* AttaroasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttaroasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111C56E228B7597900351AAC /* AttaroasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaroasUITests.swift; sourceTree = "<group>"; };
+		111C56E428B7597900351AAC /* AttaroasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaroasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111C56C128B7597800351AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111C56D128B7597900351AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111C56DB28B7597900351AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111C56BB28B7597800351AAC = {
+			isa = PBXGroup;
+			children = (
+				111C56C628B7597800351AAC /* Attaroas */,
+				111C56D728B7597900351AAC /* AttaroasTests */,
+				111C56E128B7597900351AAC /* AttaroasUITests */,
+				111C56C528B7597800351AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111C56C528B7597800351AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111C56C428B7597800351AAC /* Attaroas.app */,
+				111C56D428B7597900351AAC /* AttaroasTests.xctest */,
+				111C56DE28B7597900351AAC /* AttaroasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111C56C628B7597800351AAC /* Attaroas */ = {
+			isa = PBXGroup;
+			children = (
+				111C56C728B7597800351AAC /* AttaroasApp.swift */,
+				111C56C928B7597800351AAC /* ContentView.swift */,
+				111C56CB28B7597900351AAC /* Assets.xcassets */,
+				111C56CD28B7597900351AAC /* Preview Content */,
+			);
+			path = Attaroas;
+			sourceTree = "<group>";
+		};
+		111C56CD28B7597900351AAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				111C56CE28B7597900351AAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		111C56D728B7597900351AAC /* AttaroasTests */ = {
+			isa = PBXGroup;
+			children = (
+				111C56D828B7597900351AAC /* AttaroasTests.swift */,
+			);
+			path = AttaroasTests;
+			sourceTree = "<group>";
+		};
+		111C56E128B7597900351AAC /* AttaroasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				111C56E228B7597900351AAC /* AttaroasUITests.swift */,
+				111C56E428B7597900351AAC /* AttaroasUITestsLaunchTests.swift */,
+			);
+			path = AttaroasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111C56C328B7597800351AAC /* Attaroas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111C56E828B7597900351AAC /* Build configuration list for PBXNativeTarget "Attaroas" */;
+			buildPhases = (
+				111C56C028B7597800351AAC /* Sources */,
+				111C56C128B7597800351AAC /* Frameworks */,
+				111C56C228B7597800351AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Attaroas;
+			productName = Attaroas;
+			productReference = 111C56C428B7597800351AAC /* Attaroas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111C56D328B7597900351AAC /* AttaroasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111C56EB28B7597900351AAC /* Build configuration list for PBXNativeTarget "AttaroasTests" */;
+			buildPhases = (
+				111C56D028B7597900351AAC /* Sources */,
+				111C56D128B7597900351AAC /* Frameworks */,
+				111C56D228B7597900351AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111C56D628B7597900351AAC /* PBXTargetDependency */,
+			);
+			name = AttaroasTests;
+			productName = AttaroasTests;
+			productReference = 111C56D428B7597900351AAC /* AttaroasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		111C56DD28B7597900351AAC /* AttaroasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111C56EE28B7597900351AAC /* Build configuration list for PBXNativeTarget "AttaroasUITests" */;
+			buildPhases = (
+				111C56DA28B7597900351AAC /* Sources */,
+				111C56DB28B7597900351AAC /* Frameworks */,
+				111C56DC28B7597900351AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111C56E028B7597900351AAC /* PBXTargetDependency */,
+			);
+			name = AttaroasUITests;
+			productName = AttaroasUITests;
+			productReference = 111C56DE28B7597900351AAC /* AttaroasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111C56BC28B7597800351AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					111C56C328B7597800351AAC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					111C56D328B7597900351AAC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 111C56C328B7597800351AAC;
+					};
+					111C56DD28B7597900351AAC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 111C56C328B7597800351AAC;
+					};
+				};
+			};
+			buildConfigurationList = 111C56BF28B7597800351AAC /* Build configuration list for PBXProject "Attaroas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111C56BB28B7597800351AAC;
+			productRefGroup = 111C56C528B7597800351AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111C56C328B7597800351AAC /* Attaroas */,
+				111C56D328B7597900351AAC /* AttaroasTests */,
+				111C56DD28B7597900351AAC /* AttaroasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111C56C228B7597800351AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111C56CF28B7597900351AAC /* Preview Assets.xcassets in Resources */,
+				111C56CC28B7597900351AAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111C56D228B7597900351AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111C56DC28B7597900351AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111C56C028B7597800351AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111C56CA28B7597800351AAC /* ContentView.swift in Sources */,
+				111C56C828B7597800351AAC /* AttaroasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111C56D028B7597900351AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111C56D928B7597900351AAC /* AttaroasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111C56DA28B7597900351AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111C56E528B7597900351AAC /* AttaroasUITestsLaunchTests.swift in Sources */,
+				111C56E328B7597900351AAC /* AttaroasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111C56D628B7597900351AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111C56C328B7597800351AAC /* Attaroas */;
+			targetProxy = 111C56D528B7597900351AAC /* PBXContainerItemProxy */;
+		};
+		111C56E028B7597900351AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111C56C328B7597800351AAC /* Attaroas */;
+			targetProxy = 111C56DF28B7597900351AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111C56E628B7597900351AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		111C56E728B7597900351AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111C56E928B7597900351AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Attaroas/Preview Content\"";
+				DEVELOPMENT_TEAM = NY8K2D3KC3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vulcan-Coalition.Attaroas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111C56EA28B7597900351AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Attaroas/Preview Content\"";
+				DEVELOPMENT_TEAM = NY8K2D3KC3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vulcan-Coalition.Attaroas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		111C56EC28B7597900351AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NY8K2D3KC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vulcan-Coalition.AttaroasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attaroas.app/Attaroas";
+			};
+			name = Debug;
+		};
+		111C56ED28B7597900351AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NY8K2D3KC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vulcan-Coalition.AttaroasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attaroas.app/Attaroas";
+			};
+			name = Release;
+		};
+		111C56EF28B7597900351AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NY8K2D3KC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vulcan-Coalition.AttaroasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Attaroas;
+			};
+			name = Debug;
+		};
+		111C56F028B7597900351AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NY8K2D3KC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vulcan-Coalition.AttaroasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Attaroas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111C56BF28B7597800351AAC /* Build configuration list for PBXProject "Attaroas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111C56E628B7597900351AAC /* Debug */,
+				111C56E728B7597900351AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111C56E828B7597900351AAC /* Build configuration list for PBXNativeTarget "Attaroas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111C56E928B7597900351AAC /* Debug */,
+				111C56EA28B7597900351AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111C56EB28B7597900351AAC /* Build configuration list for PBXNativeTarget "AttaroasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111C56EC28B7597900351AAC /* Debug */,
+				111C56ED28B7597900351AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111C56EE28B7597900351AAC /* Build configuration list for PBXNativeTarget "AttaroasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111C56EF28B7597900351AAC /* Debug */,
+				111C56F028B7597900351AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111C56BC28B7597800351AAC /* Project object */;
+}
